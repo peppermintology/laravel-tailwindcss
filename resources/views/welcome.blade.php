@@ -13,10 +13,13 @@
     <script src="{{ asset('js/app.js') }}" defer></script>
     <!-- Styles -->
     <link rel="stylesheet" href="{{ asset('css/app.css') }}" media="all">
+
+    @livewireStyles
 </head>
 
 <body class="grid place-items-center h-screen">
     <button class="px-4 py-2 rounded bg-gray-800 hover:bg-gray-900 text-white text-xs">TailwindCSS is cool!</button>
+    @livewireScripts
 </body>
 
 </html>
